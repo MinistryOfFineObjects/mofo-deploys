@@ -2,6 +2,10 @@
 
 Every production deploy of MOFO, newest first. Times are US Eastern.
 
+## 2026-08-28 10:13 ET
+
+- Deployed to production.
+
 ## 2026-08-28 09:56 ET
 
 - Deployed to production.
