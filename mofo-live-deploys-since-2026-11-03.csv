@@ -1,0 +1,11 @@
+snapshot_synced_at_utc,deploy_time_et,version_id,description
+2026-11-06T20:38:49.976Z,2026-11-06 15:38 ET,mh7fa0b2s3yx0ddb4xkj47gmj98hq7x8,"Improved price CSV updates so blank values are skipped, restricted the update endpoint to admins, and separated quote and invoice numbering."
+2026-11-09T18:06:22.458Z,2026-11-09 13:06 ET,mh717nv9xsdbh21a7tfvn4qt8x8hxm1s,"Added Stripe card authorization and delayed payment verification, with invoice tracking and admin controls to capture authorized payments."
+2026-11-10T00:49:32.299Z,2026-11-09 19:49 ET,mh77hjkwweyx8y218t6ssb75b18hz9dr,Updated checkout to require a shipping address and send it with payment setup.
+2026-11-10T01:19:26.141Z,2026-11-09 20:19 ET,mh78r23s9s4zv7xfqpembs26w98hzz7e,Added an admin payment capture action and an email when a card payment is authorized; records whether that notice was sent.
+2026-11-10T01:23:07.009Z,2026-11-09 20:23 ET,mh78n8byh06gvghakjbykrjs1d8hzyzh,Fixed the product page to hide its inspiration section when it has no matching images.
+2026-11-12T18:46:26.549Z,2026-11-12 13:46 ET,mh7fjm7a2sht46em9pg799pwzs8j306k,"Added product CSV export options, including manufacturer-specific and missing-image lists; corrected how tracking links are saved."
+2026-11-13T01:45:23.209Z,2026-11-12 20:45 ET,mh7agwps1pysb6fv1yksq35ejx8j4v93,"Prefilled checkout shipping details from the purchaser profile, kept the save-quote confirmation visible, and exposed tracking links in quote details."
+2026-11-13T01:49:19.865Z,2026-11-12 20:49 ET,mh7bmdn5te7735z80ty655dgah8j426q,Made payment setup requests unique to avoid reusing a Stripe idempotency key and showed Stripe error details when setup fails.
+2026-11-13T02:01:56.261Z,2026-11-12 21:01 ET,mh73xzksd88fr7z8vhhj1x8fdh8j4spc,Added an Edit shipping action so buyers can revise their address and refresh payment setup before paying.
+2026-11-13T14:24:49.211Z,2026-11-13 09:24 ET,mh70psgdh9gq5er38gxz0ghqj58j4xzd,"Locked the shipping state once a shipping quote exists, explained how to request a state change, and fixed the payment form outline."
